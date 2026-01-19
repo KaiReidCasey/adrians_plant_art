@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import fancyPlant from './assets/fancy_plant_first_quickcropped.jpg'
+import tigerLily from './assets/tiger_lily_quickcropped.jpg'
+import waterplaceParkTree from './assets/waterplace_park_tree_japanese_lineart_quickcropped.jpg'
 import './App.css'
 
 function App() {
@@ -9,12 +10,9 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src={fancyPlant} className="photo fancy" alt="Lineart outline drawing of a plant" />
+        <img src={tigerLily} className="photo" alt="Drawing of a tiger lily" />
+        <img src={waterplaceParkTree} className="photo fancy" alt="Lineart drawing of a tree" />
       </div>
       <h1>Adrian's Plant Art</h1>
       <div className="card">
@@ -22,11 +20,11 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Lorum <code>more</code> Ipsum
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Lorum Ipsum
       </p>
     </>
   )

@@ -5,16 +5,16 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
+.photo {
+  height: 15em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+.photo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
+.photo.fancy:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
